@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import BaseRouter from './routes';
+import Layout from './containers/layout/';
+import '../node_modules/materialize-css/dist/css/materialize.min.css'
+import M from '../node_modules/materialize-css/dist/js/materialize.min.js'
+import 'material-icons';
+import utils from './utils';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+
+  componentDidMount(){
+    utils.materializeInitializer(M);
+  }
+
+  render() {
+    return (
+      <Router>
+        <Layout>
+          <BaseRouter />
+        </Layout>
+      </Router>
+    );
+  }
 }
 
 export default App;

@@ -1,0 +1,19 @@
+.navbar-brand{
+    float:left;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: x-large;
+    color: black;
+}
+nav ul a {
+    color: black !important;
+    font-weight: 500;
+}
+
+.sidenav-trigger {
+    cursor: pointer;
+}
+
+.sidenav > li {
+    cursor: pointer;
+}

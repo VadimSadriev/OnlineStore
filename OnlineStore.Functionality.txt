@@ -1,0 +1,6 @@
+1. User registration and authentication.
+2. User manipulatin as admin.
+3. Add new product to store.
+4. Oportunity to see list of products, sort, filter, search
+5. Oportunity to add product to basket.
+-------------------------------------------------------------

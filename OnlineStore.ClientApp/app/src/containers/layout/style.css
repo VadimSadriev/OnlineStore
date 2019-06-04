@@ -2,3 +2,81 @@
     width: 97%;
     margin: 0 auto;
 }
+
+html {
+    font-family: 'Quicksand', sans-serif !important;
+}
+/*modal and button configure*/
+/* label focus color */
+.input-field input[type=text]:focus + label, input[type=password]:focus + label {
+    color: #9e9e9e !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus, input[type=password]:focus {
+    border-bottom: 1px solid #9e9e9e !important;
+    box-shadow: 0 1px 0 0 #9e9e9e !important;
+}
+
+.btn {
+    font-family: 'Quicksand', sans-serif;
+    text-transform: none !important;
+    background-color: #3d5afe !important;
+}
+
+    .btn:hover, .btn:focus {
+        background-color: #3d5afe !important;
+        filter: brightness(70%);
+    }
+
+[type="checkbox"]:checked + span:not(.lever):before {
+    border-right: 2px solid #3d5afe;
+    border-bottom: 2px solid #3d5afe;
+}
+/*end button and inputs configure*/
+strong {
+    font-weight: 600;
+}
+
+/*modal configure*/
+.modal {
+    overflow-y: unset;
+}
+
+    .modal.modal-fixed-footer .modal-content {
+        overflow-y: unset;
+    }
+
+.modal-content {
+    overflow-y: unset;
+}
+
+.modal.modal-fixed-footer {
+    padding: 0;
+    height: 60%;
+}
+
+    .modal .modal-fixed-footer .open {
+        display: inline-block;
+        padding: 0;
+    }
+
+    .modal.modal-fixed-footer .modal-content .modal-body {
+        height: calc(100% - 56px);
+        overflow-y: auto;
+    }
+
+.modal-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 4px 6px;
+}
+
+/*end modal configure*/
+
+
+.small-text {
+    font-size: 12px;
+}
+
+.danger {
+    color: #d50000;
+}

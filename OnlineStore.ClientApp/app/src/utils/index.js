@@ -1,5 +1,5 @@
-import materializeInitializer from './materializeInitializer';
+// import { } from './materializeInitializer';
 
-export default {
-    materializeInitializer: materializeInitializer
-}
+// export default {
+//     materializeInit: materializeInitializer
+// }

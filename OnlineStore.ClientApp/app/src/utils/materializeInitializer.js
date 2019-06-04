@@ -1,4 +1,4 @@
-export default function (M) {
+export const initNavBar = M => {
     const sideNavBarElems = document.querySelectorAll('.sidenav')
     const sideNavBarInstances = M.Sidenav.init(sideNavBarElems, null)
 
@@ -12,10 +12,5 @@ export default function (M) {
                 }
             }
         }
-    })
-    // init modal
-    const modalElems = document.querySelectorAll('.modal')
-    M.Modal.init(modalElems, {
-
     })
 }

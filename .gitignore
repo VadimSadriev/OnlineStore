@@ -77,3 +77,4 @@ typings/
 .fusebox/
 
 *.sqlite3
+.vscode

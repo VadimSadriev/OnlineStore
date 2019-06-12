@@ -1,0 +1,44 @@
+2019-06-08 14:23:51.001530 - 1232019-06-08 14:26:15.828814 - 32
+23
+2019-06-08 14:27:21.798587 - 32
+23
+2019-06-08 14:37:27.549234 - some error
+2019-06-08 14:54:57.600293 - email
+2019-06-08 14:58:27.745313 - email
+2019-06-08 15:03:09.810446 - email
+2019-06-08 15:08:15.805948 - KeyError: email
+2019-06-08 15:10:46.806585 - KeyError: email
+2019-06-08 15:11:59.352734 - KeyError: email
+2019-06-08 15:12:17.916796 - KeyError: email
+2019-06-08 15:12:25.624237 - KeyError: email
+2019-06-08 15:12:45.623381 - KeyError: email
+2019-06-08 15:13:35.994262 - KeyError: email
+2019-06-08 15:14:12.475348 - KeyError: email
+2019-06-08 15:15:08.263539 - KeyError: email
+2019-06-08 15:15:41.227425 - KeyError: email
+2019-06-08 15:33:58.414180 - Exception: haha!
+2019-06-08 15:40:56.354085 - KeyError: password
+2019-06-08 15:42:11.660392 - KeyError: password
+2019-06-08 15:42:41.175080 - KeyError: password
+2019-06-08 15:42:51.671681 - KeyError: password
+2019-06-08 15:43:01.922267 - KeyError: password
+2019-06-08 15:43:09.486700 - KeyError: password
+2019-06-08 15:45:28.541653 - KeyError: password
+2019-06-08 15:45:30.855786 - KeyError: password
+2019-06-08 15:45:31.963849 - KeyError: password
+2019-06-08 15:45:32.756894 - KeyError: password
+2019-06-08 15:45:33.909960 - KeyError: password
+2019-06-08 15:45:35.082027 - KeyError: password
+2019-06-08 15:45:39.297268 - KeyError: password
+2019-06-08 15:45:55.984223 - KeyError: password
+2019-06-08 15:45:56.831271 - KeyError: password
+2019-06-08 15:45:57.374302 - KeyError: password
+2019-06-08 15:45:57.693321 - KeyError: password
+2019-06-08 15:45:57.935334 - KeyError: password
+2019-06-08 15:45:58.143346 - KeyError: password
+2019-06-08 15:48:50.327195 - IntegrityError: UNIQUE constraint failed: auth_user.username
+2019-06-08 15:53:09.874040 - IntegrityError: UNIQUE constraint failed: auth_user.username
+2019-06-08 15:53:13.382241 - IntegrityError: UNIQUE constraint failed: auth_user.username
+2019-06-08 15:53:52.276465 - IntegrityError: UNIQUE constraint failed: auth_user.username
+2019-06-08 17:07:52.281419 - TypeError: dump() missing 1 required positional argument: 'fp'
+2019-06-08 17:09:48.742080 - TypeError: the JSON object must be str, bytes or bytearray, not ApiResponse

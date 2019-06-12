@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../store/actions/signup';
 import { isEmail } from '../../utils/validationHelpers';
-
+import axios from '../../utils/http';
 
 function UserInput() {
     this.value = '';
@@ -21,9 +21,16 @@ class Signup extends React.Component {
         viewError: null
     }
 
+    componentWillReceiveProps(newProps){
+        this.setState({
+            viewError: newProps.signupMessage
+        })
+    }
+
     onSignup = () => {
 
         for (var key in this.state){
+           if (this.state[key]){
             if (!this.state[key].hasOwnProperty('isValid')){
                 continue;
             }
@@ -34,6 +41,7 @@ class Signup extends React.Component {
                 })
                 return;
             }
+           }
         }
 
         this.setState({
@@ -216,8 +224,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        signup: () => {
-            dispatch(actions.signup());
+        signup: (userName, email, password, confirmPassword) => {
+            dispatch(actions.signup(userName, email, password, confirmPassword));
         }
     }
 }

@@ -1,5 +1,5 @@
 1. create navbar -- done
 2. create register page -- done
-3. add backend support for user registration
-4. create login page
-5. add backend support for token authentication
+3. add backend support for user registration -- done
+4. create login page -- done
+5. add backend support for token authentication (implement authtoken creation and test auth requests)

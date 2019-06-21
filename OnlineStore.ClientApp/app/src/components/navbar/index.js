@@ -23,14 +23,14 @@ class NavBar extends React.Component {
                                 <li><a href="/#">Some link</a></li>
                             </ul>
                             <ul className="right hide-on-med-and-down">
-                                <li><Link to="/#">Login</Link></li>
+                                <li><Link to="/login">Login</Link></li>
                                 <li><Link to="/signup">Sign up</Link></li>
                             </ul>
                         </div>
                     </nav>
                 </div>
                 <ul className="sidenav" id="nav-bar-collapse">
-                    <li className="sidenav-close"><Link to="#">Login</Link></li>
+                    <li className="sidenav-close"><Link to="/login">Login</Link></li>
                     <li className="sidenav-close"><Link to="/signup">Sign up</Link></li>
                 </ul>
             </div>

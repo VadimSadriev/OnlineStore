@@ -42,3 +42,10 @@
 2019-06-08 15:53:52.276465 - IntegrityError: UNIQUE constraint failed: auth_user.username
 2019-06-08 17:07:52.281419 - TypeError: dump() missing 1 required positional argument: 'fp'
 2019-06-08 17:09:48.742080 - TypeError: the JSON object must be str, bytes or bytearray, not ApiResponse
+2019-06-17 23:26:37.845331 - Login error: email
+2019-06-20 17:17:48.337221 - Login error: djangorestframework_jwt needs to be installed
+2019-06-20 17:41:57.853129 - Login error: get_tokens_for_user() takes 1 positional argument but 2 were given
+2019-06-20 17:42:51.613204 - Login error: get_tokens_for_user() takes 1 positional argument but 2 were given
+2019-06-20 17:43:10.425280 - Login error: get_tokens_for_user() takes 1 positional argument but 2 were given
+2019-06-20 17:43:13.204439 - Login error: get_tokens_for_user() takes 1 positional argument but 2 were given
+2019-06-20 19:10:36.228322 - Login error: userNameOrEmail

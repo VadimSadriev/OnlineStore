@@ -13,17 +13,17 @@ class CustomEncoder(json.JSONEncoder):
         return o.__dict__
 
 
-def jsonResponse(object):
+def json_response(object):
     return Response(json.dumps(object, cls=CustomEncoder))
 
 
-def isEmail(email):
+def is_email(email):
     return True if re.match("^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$", email) else False
 
 
-def logError(errorName,errors):
+def log_error(error_name, errors):
     try:
         with open('errors.txt', 'a+') as f:
-            f.write(f"\n{datetime.now()} - {errorName}: {','.join(str(x) for x in errors)}")
+            f.write(f"\n{datetime.now()} - {error_name}: {','.join(str(x) for x in errors)}")
     except Exception as e:
         pass

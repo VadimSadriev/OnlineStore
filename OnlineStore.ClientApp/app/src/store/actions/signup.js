@@ -1,7 +1,5 @@
 import http from '../../utils/http';
 
-
-
 export const signupStart = () => {
     return {
         type: "SIGNUP_START"
@@ -27,7 +25,7 @@ export const signup = (userName, email, password, confirmPassword) => {
     return dispatch => {
         dispatch(signupStart());
 
-        http.post('/signup/', {
+        http.post('/account/signup/', {
             username: userName,
             email: email,
             password1: password,
